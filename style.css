@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+}
+
+.grid-container {
+  display: flex;
+}
+
+.left-side {
+  margin: 10px 0px 10px 10px;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+  color: #194a3c;
+}
+
+img {
+  width: 230px;
+  height: 350px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 10px 10px rgba(88, 134, 118, 0.38);
+}
+
+.CV-list {
+  display: grid;
+  grid-column: 3/4;
+  gap: 20px;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.name {
+  font-size: 45px;
+  margin: 10px;
+}
+
+.tel,
+.email-adress,
+.adress {
+  font-size: 28px;
+  text-align: center;
+}
+.number,
+.my-email,
+.my-adress {
+  font-size: 20px;
+  text-align: center;
+}
+
+.right-side {
+  flex-grow: 1;
+  width: 70%;
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgb(88, 134, 118);
+  color: #efeff4;
+}
+
+.skils {
+  margin: 10px;
+  padding: 5px;
+  font-size: 32px;
+}
+
+.my-skils {
+  display: grid;
+  gap: 15px;
+}
+
+.javascrip-junior {
+  margin: 10px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.list {
+  margin: 10px;
+  padding: 10px;
+}
+
+.My-school {
+  padding: 10px;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 5px;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+p {
+  margin: 5px;
+  font-size: 20px;
+}
+a {
+  color: white;
+  font-size: 1.2rem;
+}
+.HTML {
+  width: 50%;
+  height: 30px;
+  position: relative;
+  background: linear-gradient(to right, #696969 90%, #a9a9a9 10%);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.css {
+  width: 50%;
+  height: 30px;
+  position: relative;
+  background: linear-gradient(to right, #696969 80%, #a9a9a9 20%);
+  border-radius: 10px;
+}
+
+.JS {
+  width: 50%;
+  height: 30px;
+  position: relative;
+  background: linear-gradient(to right, #696969 47%, #a9a9a9 53%);
+  border-radius: 10px;
+}
+
+li {
+  margin: 10px;
+  list-style: square;
+}
+.text-my {
+  margin-left: 2rem;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 10px;
+  }
+  .right-side {
+    width: 90%;
+    margin: 1rem;
+    border-radius: 10px;
+  }
+}
