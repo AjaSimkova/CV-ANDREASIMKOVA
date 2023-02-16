@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: cursive;
   height: 100vh;
 }
 
@@ -68,6 +68,7 @@ img {
   font-family: Georgia, "Times New Roman", Times, serif;
   background: rgb(88, 134, 118);
   color: #efeff4;
+  font-family: cursive;
 }
 
 .skils {
@@ -102,6 +103,9 @@ h2 {
   margin: 5px;
   padding: 10px;
   border-top: 1px solid black;
+}
+.section-omne {
+  border-top: none;
 }
 p {
   margin: 5px;
@@ -156,7 +160,7 @@ li {
     align-items: center;
     justify-content: center;
     width: 70%;
-    margin: 10px;
+    margin-inline: 15%;
   }
   .right-side {
     width: 90%;
